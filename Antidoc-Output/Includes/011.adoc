@@ -1,0 +1,74 @@
+== Custom errors
+
+[TIP]
+====
+Custom errors are added via vi named `*--error.vi`.
+====
+
+.Custom errors
+[cols="<.<3d,<.<2d,<.<7d,<.<4d", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name |Code |Description |Owned by
+
+|Master Reference Not Closed
+|0
+|
+|<<RT Acquisition Engine.lvlib>> +
+<<TCP-IP Engine.lvlib>>
+
+|Module Not Running
+|0
+|
+|<<Configuration.lvlib>> +
+<<Host Main.lvlib>> +
+<<RT Acquisition Engine.lvlib>> +
+<<TCP-IP Engine.lvlib>> +
+<<Test Configuration.lvlib>> +
+<<Test Panel.lvlib>> +
+<<Update UI.lvlib>>
+
+|Module Not Stopped
+|0
+|
+|<<Configuration.lvlib>> +
+<<Host Main.lvlib>> +
+<<RT Acquisition Engine.lvlib>> +
+<<TCP-IP Engine.lvlib>> +
+<<Test Configuration.lvlib>> +
+<<Test Panel.lvlib>> +
+<<Update UI.lvlib>>
+
+|Module Not Synced
+|0
+|
+|<<Configuration.lvlib>> +
+<<Host Main.lvlib>> +
+<<RT Acquisition Engine.lvlib>> +
+<<TCP-IP Engine.lvlib>> +
+<<Test Configuration.lvlib>> +
+<<Test Panel.lvlib>> +
+<<Update UI.lvlib>>
+
+|Module Running as Cloneable
+|0
+|
+|<<RT Acquisition Engine.lvlib>> +
+<<TCP-IP Engine.lvlib>>
+
+|Module Running as Singleton
+|0
+|
+|<<RT Acquisition Engine.lvlib>> +
+<<TCP-IP Engine.lvlib>>
+
+|Request and Wait for Reply Timeout
+|0
+|
+|<<Configuration.lvlib>> +
+<<Host Main.lvlib>> +
+<<RT Acquisition Engine.lvlib>> +
+<<TCP-IP Engine.lvlib>> +
+<<Test Configuration.lvlib>> +
+<<Test Panel.lvlib>> +
+<<Update UI.lvlib>>
+|===

@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<IP_File_Data>
+  <RT-Hw_Name>Capsule-1</RT-Hw_Name>
+  <RT-Hw_Name>Capsule-2</RT-Hw_Name>
+  <RT-Hw_Name>Capsule-3</RT-Hw_Name>
+  <RT-Hw_Name>Capsule-4</RT-Hw_Name>
+  <RT-Hw_Name>sb-RIO</RT-Hw_Name>
+  <cDAQ-Hw_Name>Safety</cDAQ-Hw_Name>
+  <cDAQ-Hw_Name>Release</cDAQ-Hw_Name>
+  <RT-HW_Enable>false</RT-HW_Enable>
+  <RT-HW_Enable>false</RT-HW_Enable>
+  <RT-HW_Enable>false</RT-HW_Enable>
+  <RT-HW_Enable>true</RT-HW_Enable>
+  <RT-HW_Enable>true</RT-HW_Enable>
+  <cDAQ-HW_Enable>true</cDAQ-HW_Enable>
+  <cDAQ-HW_Enable>true</cDAQ-HW_Enable>
+  <RT-HW_IP>192.168.32.61</RT-HW_IP>
+  <RT-HW_IP>192.168.32.62</RT-HW_IP>
+  <RT-HW_IP>192.168.32.63</RT-HW_IP>
+  <RT-HW_IP>192.168.32.64</RT-HW_IP>
+  <RT-HW_IP>192.168.32.65</RT-HW_IP>
+  <cDAQ-HW_IP>192.168.32.66</cDAQ-HW_IP>
+  <cDAQ-HW_IP>192.168.32.67</cDAQ-HW_IP>
+</IP_File_Data>

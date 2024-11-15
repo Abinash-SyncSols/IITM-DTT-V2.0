@@ -1,0 +1,325 @@
+== RT Acquisition Engine.lvlib
+
+*Type:* Cloneable
+
+*Responsibility:*
++++This Clone Module will run for Each Target by taking it's respective IP address and open the TCP-IP Commnication between Host and the Respective Target.+++
+
+
+=== Event list
+
+.Events
+[cols="<.<4d,^.<1a,^.<8a,<.<12d,^.<1a,^.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name |Type |Connector pane |Description |S. |R. |I.
+
+|Start Module
+|image:empty.png[empty.png]
+|image:RT_Acquisition_Engine.lvlib_Start_Module.vi.png[RT Acquisition Engine.lvlib:Start Module.vi]
+|+++Launches an instance of the module Main VI. After calling this VI, you can optionally register for broadcast events from the module by wiring the broadcast events output of this VI to a <b>Register For Events</b> function. +++
+
++++After the optional Register For Events function call, you should always call the <b>Synchronize Module Events.vi</b> for this module with the 'Wait for Event Sync?' output of this VI to the corresponding input of the Synchronize Module Events.vi. +++
+
++++To see an example of the proper wiring pattern, see the "Run New Module: Value Change" event frame in the API Tester VI for this module.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Stop Module
+|image:empty.png[empty.png]
+|image:RT_Acquisition_Engine.lvlib_Stop_Module.vi.png[RT Acquisition Engine.lvlib:Stop Module.vi]
+|+++Send the Stop request to the Module's Main.vi. If <b>Wait for Module to stop?</b> is TRUE, then this VI will not complete execution until the Module Main VI has stopped running.+++
+
++++<b>Note:</b> If the cloneable module is running as singleton, then the 'Wait for Module to stop?' input is ignored... this VI will <b>always</b> wait until a cloneable Main VI running as singleton has stopped running.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Show Panel
+|image:request.png[request.png]
+|image:RT_Acquisition_Engine.lvlib_Show_Panel.vi.png[RT Acquisition Engine.lvlib:Show Panel.vi]
+|+++Send the Show Panel request to the Module's Main.vi.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Hide Panel
+|image:request.png[request.png]
+|image:RT_Acquisition_Engine.lvlib_Hide_Panel.vi.png[RT Acquisition Engine.lvlib:Hide Panel.vi]
+|+++Send the Hide Panel request to the Module's Main.vi.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Show Diagram
+|image:request.png[request.png]
+|image:RT_Acquisition_Engine.lvlib_Show_Diagram.vi.png[RT Acquisition Engine.lvlib:Show Diagram.vi]
+|+++This VI tells the Module to show its block diagram to facilitate troubleshooting (add probes, breakpoints, highlight execution, etc).+++
+
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Write Data To the RT
+|image:request.png[request.png]
+|image:RT_Acquisition_Engine.lvlib_Write_Data_To_the_RT.vi.png[RT Acquisition Engine.lvlib:Write Data To the RT.vi]
+|+++This Request event will send the Data from the Host to Realtime Using TCP-IP Protocol.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Module Did Init
+|image:broadcast.png[broadcast.png]
+|image:RT_Acquisition_Engine.lvlib_Module_Did_Init.vi.png[RT Acquisition Engine.lvlib:Module Did Init.vi]
+|+++Send the Module Did Init event to any VI registered to listen to this module's broadcast events.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Status Updated
+|image:broadcast.png[broadcast.png]
+|image:RT_Acquisition_Engine.lvlib_Status_Updated.vi.png[RT Acquisition Engine.lvlib:Status Updated.vi]
+|+++Send the Status Updated event to any VI registered to listen to events from the owning module.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Error Reported
+|image:broadcast.png[broadcast.png]
+|image:RT_Acquisition_Engine.lvlib_Error_Reported.vi.png[RT Acquisition Engine.lvlib:Error Reported.vi]
+|+++Send the Error Reported event to any VI registered to listen to events from the owning module.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Module Did Stop
+|image:broadcast.png[broadcast.png]
+|image:RT_Acquisition_Engine.lvlib_Module_Did_Stop.vi.png[RT Acquisition Engine.lvlib:Module Did Stop.vi]
+|+++Send the Module Did Stop event to any VI registered to listen to this module's broadcast events.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Update Module Execution Status
+|image:broadcast.png[broadcast.png]
+|image:RT_Acquisition_Engine.lvlib_Update_Module_Execution_Status.vi.png[RT Acquisition Engine.lvlib:Update Module Execution Status.vi]
+|+++Fire the Get Module Execution Status request.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|RT Connection Status
+|image:broadcast.png[broadcast.png]
+|image:RT_Acquisition_Engine.lvlib_RT_Connection_Status.vi.png[RT Acquisition Engine.lvlib:RT Connection Status.vi]
+|+++This Broadcast Event will send wheter the RT is connected with the Host or Not.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|===
+
+**Type**: image:request.png[] -> Request | image:request-and-wait-for-reply.png[] -> Request and Wait for Reply  | image:broadcast.png[] -> Broadcast
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Module relationship
+
+[graphviz, format="png", align="center"]
+....
+digraph G73106 {
+rankdir=LR;
+edge[dir=both color=black  arrowhead=normal arrowtail=none style=filled penwidth=1]
+node[color=black shape=box]
+"RT Acquisition Engine"[color=slateblue shape=component]
+"Host Main"[color=black shape=component]
+"Test RT Acquisition Engine API"[color=skyblue shape=note]
+"Test Panel"[color=black shape=component]
+"Test Configuration"[color=black shape=component]
+"TCP-IP Engine"[color=black shape=component]
+"Host Main" -> "RT Acquisition Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test RT Acquisition Engine API" -> "RT Acquisition Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"RT Acquisition Engine" -> "RT Acquisition Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Panel" -> "RT Acquisition Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"RT Acquisition Engine" -> "Test RT Acquisition Engine API" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"RT Acquisition Engine" -> "Host Main" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"RT Acquisition Engine" -> "Test Configuration" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"RT Acquisition Engine" -> "Test Panel" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"TCP-IP Engine" -> "RT Acquisition Engine" [label="  " dir=both color=goldenrod  arrowhead=onormal arrowtail=none style=dashed penwidth=1];
+"RT Acquisition Engine" -> "RT Acquisition Engine" [label="   " dir=both color=forestgreen  arrowhead=onormal arrowtail=none style=filled penwidth=1];
+"RT Acquisition Engine" -> "TCP-IP Engine" [label="   " dir=both color=forestgreen  arrowhead=onormal arrowtail=none style=filled penwidth=1];
+}
+....
+
+.Requests callers
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Request Name |Callers
+
+|Hide Panel
+|Test RT Acquisition Engine API.vi
+
+|Show Diagram
+|Test RT Acquisition Engine API.vi
+
+|Show Panel
+|Test RT Acquisition Engine API.vi
+
+|Write Data To the RT
+|Test Panel.lvlib:Main.vi +
+Test RT Acquisition Engine API.vi
+|===
+
+.Broadcasts Listeners
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Broadcast Name |Listeners
+
+|Error Reported
+|Test RT Acquisition Engine API.vi
+
+|Module Did Init
+|Test RT Acquisition Engine API.vi
+
+|Module Did Stop
+|Test RT Acquisition Engine API.vi
+
+|RT Connection Status
+|Host Main.lvlib:Main.vi +
+Test RT Acquisition Engine API.vi +
+Test Configuration.lvlib:Main.vi +
+Test Panel.lvlib:Main.vi
+
+|Status Updated
+|Test RT Acquisition Engine API.vi
+
+|Update Module Execution Status
+|Test RT Acquisition Engine API.vi
+|===
+
+.Used requests
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Module |Requests
+
+|RT Acquisition Engine.lvlib
+|Stop Module.vi
+
+|TCP-IP Engine.lvlib
+|Read TCP Data.vi (2) +
+Stop Module.vi +
+TCP-Close Connection.vi +
+TCP-Open Connection.vi (2) +
+TCP-Write.vi (3)
+|===
+
+.Registered broadcast
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Module |Broadcasts
+
+|TCP-IP Engine.lvlib
+|Error Reported.vi +
+Module Did Init.vi +
+Module Did Stop.vi +
+Open Connection Status.vi +
+Status Updated.vi +
+TCP-Read Data Out.vi +
+Update Module Execution Status.vi
+|===
+
+=== Module Start/Stop calls
+
+[graphviz, format="png", align="center"]
+....
+digraph G297060 {
+rankdir=LR;
+edge[dir=both color=black  arrowhead=normal arrowtail=none style=filled penwidth=1]
+node[color=black shape=box]
+"Start Module"[color=yellowgreen shape=note]
+"Host Main"[color=black shape=component]
+"Test RT Acquisition Engine API"[color=skyblue shape=note]
+"Stop Module"[color=tomato shape=note]
+"RT Acquisition Engine"[color=black shape=component]
+"Start Module" -> "Host Main" [dir=both color=yellowgreen  arrowhead=odot arrowtail=inv style=filled penwidth=1];
+"Start Module" -> "Test RT Acquisition Engine API" [dir=both color=yellowgreen  arrowhead=odot arrowtail=inv style=filled penwidth=1];
+"Stop Module" -> "Host Main" [dir=both color=tomato  arrowhead=odot arrowtail=inv style=dotted penwidth=1];
+"Stop Module" -> "RT Acquisition Engine" [dir=both color=tomato  arrowhead=odot arrowtail=inv style=dotted penwidth=1];
+"Stop Module" -> "Test RT Acquisition Engine API" [dir=both color=tomato  arrowhead=odot arrowtail=inv style=dotted penwidth=1];
+}
+....
+
+.Start and Stop module callers
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Function |Callers
+
+|Start Module
+|Host Main.lvlib:Main.vi +
+Test RT Acquisition Engine API.vi
+
+|Stop Module
+|Host Main.lvlib:Main.vi +
+RT Acquisition Engine.lvlib:Handle Exit.vi +
+Test RT Acquisition Engine API.vi
+|===
+
+=== Module custom errors
+
+[TIP]
+====
+Custom errors are added to the module via vi named `*--error.vi`.
+====
+
+Module RT Acquisition Engine.lvlib use the following custom errors:
+
+.Custom errors
+[cols="<.<4d,<.<2d,<.<10d", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name |Code |Description
+
+|Master Reference Not Closed
+|0
+|
+
+|Module Not Running
+|0
+|
+
+|Module Not Stopped
+|0
+|
+
+|Module Not Synced
+|0
+|
+
+|Module Running as Cloneable
+|0
+|
+
+|Module Running as Singleton
+|0
+|
+
+|Request and Wait for Reply Timeout
+|0
+|
+|===

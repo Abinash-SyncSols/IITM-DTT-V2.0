@@ -1,0 +1,175 @@
+== TCP Engine.lvlib
+
+*Responsibility:*
+No description found (add content in lvlib description)
+
+*Version:* 1.0.0.0
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name |Connector pane |Description |S. |R. |I.
+
+|TCP Engine AIO&DIO JSON Conversion
+|image:TCP_Engine.lvlib_TCP_Engine_AIO&DIO_JSON_Conversion.vi.png[TCP Engine.lvlib:TCP Engine AIO&DIO JSON Conversion.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP ENGINE Async Data JSON Conversion
+|image:TCP_Engine.lvlib_TCP_ENGINE_Async_Data_JSON_Conversion.vi.png[TCP Engine.lvlib:TCP ENGINE Async Data JSON Conversion.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine Close Active Engines
+|image:TCP_Engine.lvlib_TCP_Engine_Close_Active_Engines.vi.png[TCP Engine.lvlib:TCP Engine Close Active Engines.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine Device Name
+|image:TCP_Engine.lvlib_TCP_Engine_Device_Name.vi.png[TCP Engine.lvlib:TCP Engine Device Name.vi]
+|+++This purpose of this VI is to get all  engine names from JSON Commands. +++
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine Hardware Info JSON Conversion
+|image:TCP_Engine.lvlib_TCP_Engine_Hardware_Info_JSON_Conversion.vi.png[TCP Engine.lvlib:TCP Engine Hardware Info JSON Conversion.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine JSON to LabVIEW Data
+|image:TCP_Engine.lvlib_TCP_Engine_JSON_to_LabVIEW_Data.vi.png[TCP Engine.lvlib:TCP Engine JSON to LabVIEW Data.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine JSON to LV Data
+|image:TCP_Engine.lvlib_TCP_Engine_JSON_to_LV_Data.vi.png[TCP Engine.lvlib:TCP Engine JSON to LV Data.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine Send Commands To all Modules
+|image:TCP_Engine.lvlib_TCP_Engine_Send_Commands_To_all_Modules.vi.png[TCP Engine.lvlib:TCP Engine Send Commands To all Modules.vi]
+|+++The purpose of this VI is to perform all functions of the  hardware modules.+++
++++Functions+++
++++1)Engine Launch+++
++++2)Configuration+++
++++3)Update+++
++++4)All Start+++
++++5)Engine start+++
++++6)Hardware Info.+++
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine Send Loop
+|image:TCP_Engine.lvlib_TCP_Engine_Send_Loop.vi.png[TCP Engine.lvlib:TCP Engine Send Loop.vi]
+|+++This VI will semd all engine response to HOST+++
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine SM Q Driver
+|image:TCP_Engine.lvlib_TCP_Engine_SM_Q_Driver.vi.png[TCP Engine.lvlib:TCP Engine SM Q Driver.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine State Controller
+|image:TCP_Engine.lvlib_TCP_Engine_State_Controller.vi.png[TCP Engine.lvlib:TCP Engine State Controller.vi]
+|
+
+
+
++++All Rights Reserved © 2017 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine Get Msg From Host
+|image:TCP_Engine.lvlib_TCP_Engine_Get_Msg_From_Host.vi.png[TCP Engine.lvlib:TCP Engine Get Msg From Host.vi]
+|No description found (add content in vi description)
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP Engine
+|image:TCP_Engine.lvlib_TCP_Engine.vi.png[TCP Engine.lvlib:TCP Engine.vi]
+|+++This VI will communicate with HOST through TCP/IP Communication, also it communicates with all engines through queue mechanism.+++
+
+
+
++++All Rights Reserved © 2023 SyncSols+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined

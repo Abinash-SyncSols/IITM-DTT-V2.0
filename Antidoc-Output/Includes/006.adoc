@@ -1,0 +1,369 @@
+== TCP-IP Engine.lvlib
+
+*Type:* Cloneable
+
+*Responsibility:*
++++This clone module will transmit and receive comand's using TCP-IP Protocol.+++
+
+
+=== Event list
+
+.Events
+[cols="<.<4d,^.<1a,^.<8a,<.<12d,^.<1a,^.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name |Type |Connector pane |Description |S. |R. |I.
+
+|Start Module
+|image:empty.png[empty.png]
+|image:TCP_IP_Engine.lvlib_Start_Module.vi.png[TCP-IP Engine.lvlib:Start Module.vi]
+|+++Launches an instance of the module Main VI. After calling this VI, you can optionally register for broadcast events from the module by wiring the broadcast events output of this VI to a <b>Register For Events</b> function. +++
+
++++After the optional Register For Events function call, you should always call the <b>Synchronize Module Events.vi</b> for this module with the 'Wait for Event Sync?' output of this VI to the corresponding input of the Synchronize Module Events.vi. +++
+
++++To see an example of the proper wiring pattern, see the "Run New Module: Value Change" event frame in the API Tester VI for this module.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Stop Module
+|image:empty.png[empty.png]
+|image:TCP_IP_Engine.lvlib_Stop_Module.vi.png[TCP-IP Engine.lvlib:Stop Module.vi]
+|+++Send the Stop request to the Module's Main.vi. If <b>Wait for Module to stop?</b> is TRUE, then this VI will not complete execution until the Module Main VI has stopped running.+++
+
++++<b>Note:</b> If the cloneable module is running as singleton, then the 'Wait for Module to stop?' input is ignored... this VI will <b>always</b> wait until a cloneable Main VI running as singleton has stopped running.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Show Panel
+|image:request.png[request.png]
+|image:TCP_IP_Engine.lvlib_Show_Panel.vi.png[TCP-IP Engine.lvlib:Show Panel.vi]
+|+++Send the Show Panel request to the Module's Main.vi.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Hide Panel
+|image:request.png[request.png]
+|image:TCP_IP_Engine.lvlib_Hide_Panel.vi.png[TCP-IP Engine.lvlib:Hide Panel.vi]
+|+++Send the Hide Panel request to the Module's Main.vi.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Show Diagram
+|image:request.png[request.png]
+|image:TCP_IP_Engine.lvlib_Show_Diagram.vi.png[TCP-IP Engine.lvlib:Show Diagram.vi]
+|+++This VI tells the Module to show its block diagram to facilitate troubleshooting (add probes, breakpoints, highlight execution, etc).+++
+
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP-Open Connection
+|image:request.png[request.png]
+|image:TCP_IP_Engine.lvlib_TCP_Open_Connection.vi.png[TCP-IP Engine.lvlib:TCP-Open Connection.vi]
+|+++This Request event will request the TCP-Engine to open the Connection based on the input's wh have given.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Read TCP Data
+|image:request.png[request.png]
+|image:TCP_IP_Engine.lvlib_Read_TCP_Data.vi.png[TCP-IP Engine.lvlib:Read TCP Data.vi]
+|+++This Request Event will request the TCP-IP Module to read the data from the respective connection.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP-Write
+|image:request.png[request.png]
+|image:TCP_IP_Engine.lvlib_TCP_Write.vi.png[TCP-IP Engine.lvlib:TCP-Write.vi]
+|+++This Request event will request the TCP-IP Module to write the Data which is connected to the Data In terminal of the Input.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP-Close Connection
+|image:request.png[request.png]
+|image:TCP_IP_Engine.lvlib_TCP_Close_Connection.vi.png[TCP-IP Engine.lvlib:TCP-Close Connection.vi]
+|+++This Request Event will request the TCP-IP module to close the respective opened connection.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Module Did Init
+|image:broadcast.png[broadcast.png]
+|image:TCP_IP_Engine.lvlib_Module_Did_Init.vi.png[TCP-IP Engine.lvlib:Module Did Init.vi]
+|+++Send the Module Did Init event to any VI registered to listen to this module's broadcast events.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Status Updated
+|image:broadcast.png[broadcast.png]
+|image:TCP_IP_Engine.lvlib_Status_Updated.vi.png[TCP-IP Engine.lvlib:Status Updated.vi]
+|+++Send the Status Updated event to any VI registered to listen to events from the owning module.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Error Reported
+|image:broadcast.png[broadcast.png]
+|image:TCP_IP_Engine.lvlib_Error_Reported.vi.png[TCP-IP Engine.lvlib:Error Reported.vi]
+|+++Send the Error Reported event to any VI registered to listen to events from the owning module.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Module Did Stop
+|image:broadcast.png[broadcast.png]
+|image:TCP_IP_Engine.lvlib_Module_Did_Stop.vi.png[TCP-IP Engine.lvlib:Module Did Stop.vi]
+|+++Send the Module Did Stop event to any VI registered to listen to this module's broadcast events.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Update Module Execution Status
+|image:broadcast.png[broadcast.png]
+|image:TCP_IP_Engine.lvlib_Update_Module_Execution_Status.vi.png[TCP-IP Engine.lvlib:Update Module Execution Status.vi]
+|+++Fire the Get Module Execution Status request.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Open Connection Status
+|image:broadcast.png[broadcast.png]
+|image:TCP_IP_Engine.lvlib_Open_Connection_Status.vi.png[TCP-IP Engine.lvlib:Open Connection Status.vi]
+|+++This Broadcast Event will sent the Open Connection Status i.e whether TCP connection is established successfully between RT and Host.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|TCP-Read Data Out
+|image:broadcast.png[broadcast.png]
+|image:TCP_IP_Engine.lvlib_TCP_Read_Data_Out.vi.png[TCP-IP Engine.lvlib:TCP-Read Data Out.vi]
+|+++This Broadcast Event will send the Data which has been read from the TCP-IP Conection.+++
+
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|===
+
+**Type**: image:request.png[] -> Request | image:request-and-wait-for-reply.png[] -> Request and Wait for Reply  | image:broadcast.png[] -> Broadcast
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Module relationship
+
+[graphviz, format="png", align="center"]
+....
+digraph G896925 {
+rankdir=LR;
+edge[dir=both color=black  arrowhead=normal arrowtail=none style=filled penwidth=1]
+node[color=black shape=box]
+"TCP-IP Engine"[color=slateblue shape=component]
+"RT Acquisition Engine"[color=black shape=component]
+"Test TCP-IP Engine API"[color=skyblue shape=note]
+"Update UI"[color=black shape=component]
+"RT Acquisition Engine" -> "TCP-IP Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test TCP-IP Engine API" -> "TCP-IP Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"TCP-IP Engine" -> "TCP-IP Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"TCP-IP Engine" -> "RT Acquisition Engine" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"TCP-IP Engine" -> "Test TCP-IP Engine API" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"TCP-IP Engine" -> "Update UI" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"TCP-IP Engine" -> "TCP-IP Engine" [label="   " dir=both color=forestgreen  arrowhead=onormal arrowtail=none style=filled penwidth=1];
+}
+....
+
+.Requests callers
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Request Name |Callers
+
+|Hide Panel
+|Test TCP-IP Engine API.vi
+
+|Read TCP Data
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|Show Diagram
+|Test TCP-IP Engine API.vi
+
+|Show Panel
+|Test TCP-IP Engine API.vi
+
+|TCP-Close Connection
+|Test TCP-IP Engine API.vi
+
+|TCP-Open Connection
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|TCP-Write
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+|===
+
+.Broadcasts Listeners
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Broadcast Name |Listeners
+
+|Error Reported
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|Module Did Init
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|Module Did Stop
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|Open Connection Status
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|Status Updated
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|TCP-Read Data Out
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi +
+Update UI.lvlib:Main.vi
+
+|Update Module Execution Status
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+|===
+
+.Used requests
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Module |Requests
+
+|TCP-IP Engine.lvlib
+|Read TCP Data.vi +
+Stop Module.vi +
+TCP-Close Connection.vi +
+TCP-Open Connection.vi +
+TCP-Write.vi
+|===
+
+.Registered broadcast
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Module |Broadcasts
+
+|--
+|--
+|===
+
+=== Module Start/Stop calls
+
+[graphviz, format="png", align="center"]
+....
+digraph G851346 {
+rankdir=LR;
+edge[dir=both color=black  arrowhead=normal arrowtail=none style=filled penwidth=1]
+node[color=black shape=box]
+"Start Module"[color=yellowgreen shape=note]
+"RT Acquisition Engine"[color=black shape=component]
+"Test TCP-IP Engine API"[color=skyblue shape=note]
+"Stop Module"[color=tomato shape=note]
+"TCP-IP Engine"[color=black shape=component]
+"Start Module" -> "RT Acquisition Engine" [dir=both color=yellowgreen  arrowhead=odot arrowtail=inv style=filled penwidth=1];
+"Start Module" -> "Test TCP-IP Engine API" [dir=both color=yellowgreen  arrowhead=odot arrowtail=inv style=filled penwidth=1];
+"Stop Module" -> "RT Acquisition Engine" [dir=both color=tomato  arrowhead=odot arrowtail=inv style=dotted penwidth=1];
+"Stop Module" -> "TCP-IP Engine" [dir=both color=tomato  arrowhead=odot arrowtail=inv style=dotted penwidth=1];
+"Stop Module" -> "Test TCP-IP Engine API" [dir=both color=tomato  arrowhead=odot arrowtail=inv style=dotted penwidth=1];
+}
+....
+
+.Start and Stop module callers
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Function |Callers
+
+|Start Module
+|RT Acquisition Engine.lvlib:Main.vi +
+Test TCP-IP Engine API.vi
+
+|Stop Module
+|RT Acquisition Engine.lvlib:Main.vi +
+TCP-IP Engine.lvlib:Handle Exit.vi +
+Test TCP-IP Engine API.vi
+|===
+
+=== Module custom errors
+
+[TIP]
+====
+Custom errors are added to the module via vi named `*--error.vi`.
+====
+
+Module TCP-IP Engine.lvlib use the following custom errors:
+
+.Custom errors
+[cols="<.<4d,<.<2d,<.<10d", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name |Code |Description
+
+|Master Reference Not Closed
+|0
+|
+
+|Module Not Running
+|0
+|
+
+|Module Not Stopped
+|0
+|
+
+|Module Not Synced
+|0
+|
+
+|Module Running as Cloneable
+|0
+|
+
+|Module Running as Singleton
+|0
+|
+
+|Request and Wait for Reply Timeout
+|0
+|
+|===

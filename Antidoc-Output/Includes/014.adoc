@@ -1,0 +1,132 @@
+== Auto Sequence Engine.vi
+
+image::Auto_Sequence_Engine.vi.png[]
+
+*Description:*
+No description found (add content in VI description)
+
+=== States relathionship
+
+[graphviz, format="png", align="center"]
+....
+digraph G21338 {
+rankdir=LR;
+edge[dir=none color=blue  arrowhead=none arrowtail=none style=rounded penwidth=1]
+node[color=crimson shape=Msquare]
+" \"Initialize Core Data\" "[color=forestgreen shape=box]
+" \"Macro: Initialize\" "[color=forestgreen shape=box]
+" \"Exit\" "[color=forestgreen shape=box]
+" \"Macro: Exit\" "[color=coral shape=box]
+" \"Data: Initialize\" "[color=forestgreen shape=box]
+" \"Data: Cleanup\" "[color=forestgreen shape=box]
+" \"UI: Initialize\" "[color=forestgreen shape=box]
+" \"UI: Front Panel State\" "[color=forestgreen shape=box]
+"Auto Sequence Engine.vi"[color=darkgray shape=invhouse]
+" Timeout "[color=coral shape=diamond]
+" Default "[color=coral shape=box]
+" \"Error Handler\" "[color=coral shape=box]
+" \"UI: Cursor Set\" "[color=coral shape=box]
+" \"Auto Sequence Configuration\" "[color=coral shape=box]
+" \"New Category: 2\" "[color=coral shape=box]
+" \"Macro: Initialize\" " -> " \"Initialize Core Data\" " [dir=both color=cornflowerblue  arrowhead=normal arrowtail=none style=filled penwidth=1];
+" \"Macro: Exit\" " -> " \"Exit\" " [dir=both color=cornflowerblue  arrowhead=normal arrowtail=none style=filled penwidth=1];
+" \"Macro: Initialize\" " -> " \"Data: Initialize\" " [dir=both color=cornflowerblue  arrowhead=normal arrowtail=none style=filled penwidth=1];
+" \"Macro: Exit\" " -> " \"Data: Cleanup\" " [dir=both color=cornflowerblue  arrowhead=normal arrowtail=none style=filled penwidth=1];
+" \"Macro: Initialize\" " -> " \"UI: Initialize\" " [dir=both color=cornflowerblue  arrowhead=normal arrowtail=none style=filled penwidth=1];
+" \"Macro: Exit\" " -> " \"UI: Front Panel State\" " [dir=both color=cornflowerblue  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Auto Sequence Engine.vi" -> " \"Macro: Initialize\" " [dir=both color=cornflowerblue  arrowhead=normal arrowtail=none style=filled penwidth=1];
+}
+....
+
+=== State machine detailed info
+
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|State Name |State Documentation |State Callers |States Called
+
+4+^|*"", "Event Structure", "Idle"*
+
+| Timeout 
+|
+|
+|
+
+4+^|*Core*
+
+| Default 
+|
+|
+|
+
+| "Initialize Core Data" 
+|
+| "Macro: Initialize" 
+|
+
+| "Error Handler" 
+|
+|
+|
+
+| "Exit" 
+|
+| "Macro: Exit" 
+|
+
+4+^|*Data*
+
+| "Data: Initialize" 
+|
+| "Macro: Initialize" 
+|
+
+| "Data: Cleanup" 
+|
+| "Macro: Exit" 
+|
+
+4+^|*UI*
+
+| "UI: Initialize" 
+|
+| "Macro: Initialize" 
+|
+
+| "UI: Cursor Set" 
+|
+|
+|
+
+| "UI: Front Panel State" 
+|
+| "Macro: Exit" 
+|
+
+4+^|*Macro*
+
+| "Macro: Initialize" 
+|Initialization Macro (This is called once, when the VI starts)
+|
+| "Initialize Core Data"  +
+ "Data: Initialize"  +
+ "UI: Initialize" 
+
+| "Macro: Exit" 
+|
+|
+| "Exit"  +
+ "Data: Cleanup"  +
+ "UI: Front Panel State" 
+
+4+^|*Auto Sequence*
+
+| "Auto Sequence Configuration" 
+|
+|
+|
+
+| "New Category: 2" 
+|
+|
+|
+|===

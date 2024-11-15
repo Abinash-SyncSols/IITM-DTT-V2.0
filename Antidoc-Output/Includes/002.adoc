@@ -1,0 +1,65 @@
+== Modules overview
+
+This project contains 5 singleton modules and 2 cloneable modules.
+
+.Modules list
+[cols="", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Singleton |Cloneable
+
+|<<Configuration.lvlib>>
+|<<RT Acquisition Engine.lvlib>>
+
+|<<Host Main.lvlib>>
+|<<TCP-IP Engine.lvlib>>
+
+|<<Test Configuration.lvlib>>
+|
+
+|<<Test Panel.lvlib>>
+|
+
+|<<Update UI.lvlib>>
+|
+|===
+
+This graph represents the links between all DQMH modules.
+
+[graphviz, format="png", align="center"]
+....
+digraph G293612 {
+rankdir=LR;
+edge[dir=both color=black  arrowhead=normal arrowtail=none style=filled penwidth=1]
+node[color=black shape=box]
+"Configuration"[color=black shape=component]
+"Launcher"[color=skyblue shape=note]
+"Host Main"[color=black shape=component]
+"Test Configuration"[color=black shape=component]
+"Test Panel"[color=black shape=component]
+"RT Acquisition Engine"[color=black shape=component]
+"TCP-IP Engine"[color=black shape=component]
+"Update UI"[color=black shape=component]
+"Configuration" -> "Configuration" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Host Main" -> "Host Main" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Configuration" -> "Host Main" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Panel" -> "Host Main" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Launcher" -> "Host Main" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Host Main" -> "Test Panel" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"RT Acquisition Engine" -> "RT Acquisition Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Panel" -> "RT Acquisition Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"RT Acquisition Engine" -> "Host Main" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"RT Acquisition Engine" -> "Test Configuration" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"RT Acquisition Engine" -> "Test Panel" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"TCP-IP Engine" -> "TCP-IP Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"RT Acquisition Engine" -> "TCP-IP Engine" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"TCP-IP Engine" -> "RT Acquisition Engine" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"TCP-IP Engine" -> "Update UI" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"Host Main" -> "Test Configuration" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Configuration" -> "Test Configuration" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Configuration" -> "Host Main" [label=" " dir=both color=goldenrod  arrowhead=normal arrowtail=none style=dashed penwidth=1];
+"Host Main" -> "Test Panel" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Panel" -> "Test Panel" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Test Configuration" -> "Test Panel" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+"Update UI" -> "Update UI" [label="    " dir=both color=forestgreen  arrowhead=normal arrowtail=none style=filled penwidth=1];
+}
+....

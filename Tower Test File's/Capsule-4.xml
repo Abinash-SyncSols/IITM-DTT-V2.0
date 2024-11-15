@@ -1,0 +1,5291 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>24.3.2f2</Version>
+<LvVariant>
+<Name>Data</Name>
+<Cluster>
+<Name>Interface Data</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>DI Config Data</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>0</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val></Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+<Array>
+<Name>DO Config Data</Name>
+<Dimsize>24</Dimsize>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line0</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line1</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line2</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line3</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line4</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line5</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line6</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod5/port0/line7</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line0</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line1</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line10</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line11</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line12</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line13</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line14</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line15</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line2</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line3</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line4</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line5</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line6</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line7</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line8</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>DI Channel's</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod6/port1/line9</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Data</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U8>
+</Array>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<Array>
+<Name>AI Config Data's</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>AI Config Data's</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Module Name</Name>
+<Val>NI 9213</Val>
+</String>
+<Array>
+<Name>AI Channel's Data</Name>
+<Dimsize>16</Dimsize>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai0</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai1</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai10</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai11</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai12</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai13</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai14</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai15</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai3</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai4</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai5</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai6</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai7</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai8</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai9</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai2</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Analog Input Timing</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>samples per channel</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>sample mode</Name>
+<Val>10123</Val>
+</I32>
+<DBL>
+<Name>Sampling Rate</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>AI Config Data's</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Module Name</Name>
+<Val>NI 9234</Val>
+</String>
+<Array>
+<Name>AI Channel's Data</Name>
+<Dimsize>20</Dimsize>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai0</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai1</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai10</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai11</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai12</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai13</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai14</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai15</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai3</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai4</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai5</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai6</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai7</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai8</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai9</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai2</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod1/ai0</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod1/ai1</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod1/ai2</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod1/ai3</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Analog Input Timing</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>samples per channel</Name>
+<Val>1000</Val>
+</I32>
+<I32>
+<Name>sample mode</Name>
+<Val>10123</Val>
+</I32>
+<DBL>
+<Name>Sampling Rate</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>AI Config Data's</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Module Name</Name>
+<Val>NI 9220</Val>
+</String>
+<Array>
+<Name>AI Channel's Data</Name>
+<Dimsize>32</Dimsize>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai0</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai1</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai10</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai11</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai12</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai13</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai14</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai15</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai3</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai4</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai5</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai6</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai7</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai8</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai9</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod8/ai2</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-ThermoCouple&lt;/Name&gt;
+&lt;NumElts&gt;7&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;thermocouple type&lt;/Name&gt;
+&lt;Val&gt;10072&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10143&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;cjc source&lt;/Name&gt;
+&lt;Val&gt;10116&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;cjc channel&lt;/Name&gt;
+&lt;RefKind&gt;Generic Tag&lt;/RefKind&gt;
+&lt;RefType&gt;NIDAQ&lt;/RefType&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;DBL&gt;
+&lt;Name&gt;cjc value&lt;/Name&gt;
+&lt;Val&gt;25.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai0</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai1</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai10</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai11</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai12</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai13</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai14</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai15</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai2</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai3</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai4</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai5</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai6</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai7</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai8</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>AI Single Channel Data</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>Mod3/ai9</Val>
+</String>
+<String>
+<Name>Identification Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Channel Type</Name>
+<Choice>Voltage</Choice>
+<Choice>Current</Choice>
+<Choice>Thermocouple</Choice>
+<Choice>Acclerometer</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Sub-Type</Name>
+<Choice>None</Choice>
+<Choice>Pressure</Choice>
+<Choice>Force</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Data</Name>
+<Val>&lt;LvVariant&gt;
+&lt;Name&gt;Ctrl Value Out&lt;/Name&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;AI-Voltage Data's&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;input terminal configuration&lt;/Name&gt;
+&lt;Val&gt;-1&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;DBL&gt;
+&lt;Name&gt;maximum value&lt;/Name&gt;
+&lt;Val&gt;5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;minimum value&lt;/Name&gt;
+&lt;Val&gt;-5.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;I32&gt;
+&lt;Name&gt;units&lt;/Name&gt;
+&lt;Val&gt;10348&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;/LvVariant&gt;
+</Val>
+</String>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Analog Input Timing</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>samples per channel</Name>
+<Val>1000</Val>
+</I32>
+<I32>
+<Name>sample mode</Name>
+<Val>10123</Val>
+</I32>
+<DBL>
+<Name>Sampling Rate</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</Array>
+</Cluster>
+</LvVariant>
+</LVData>
