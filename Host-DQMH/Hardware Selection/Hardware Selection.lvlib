@@ -101,6 +101,9 @@
 	<Item Name="HW-S FGV" Type="Folder">
 		<Item Name="Selected HW Detail&apos;s.vi" Type="VI" URL="../Selected HW Detail&apos;s.vi"/>
 	</Item>
+	<Item Name="Sub-VI" Type="Folder">
+		<Item Name="Launch Module&apos;s.vi" Type="VI" URL="../Launch Module&apos;s.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>

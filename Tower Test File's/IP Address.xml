@@ -1,24 +1,40 @@
 <?xml version="1.0" standalone="yes"?>
-<IP_File_Data>
-  <RT-Hw_Name>Capsule-1</RT-Hw_Name>
-  <RT-Hw_Name>Capsule-2</RT-Hw_Name>
-  <RT-Hw_Name>Capsule-3</RT-Hw_Name>
-  <RT-Hw_Name>Capsule-4</RT-Hw_Name>
-  <RT-Hw_Name>sb-RIO</RT-Hw_Name>
-  <cDAQ-Hw_Name>Safety</cDAQ-Hw_Name>
-  <cDAQ-Hw_Name>Release</cDAQ-Hw_Name>
-  <RT-HW_Enable>false</RT-HW_Enable>
-  <RT-HW_Enable>false</RT-HW_Enable>
-  <RT-HW_Enable>false</RT-HW_Enable>
-  <RT-HW_Enable>true</RT-HW_Enable>
-  <RT-HW_Enable>true</RT-HW_Enable>
-  <cDAQ-HW_Enable>true</cDAQ-HW_Enable>
-  <cDAQ-HW_Enable>true</cDAQ-HW_Enable>
-  <RT-HW_IP>192.168.32.61</RT-HW_IP>
-  <RT-HW_IP>192.168.32.62</RT-HW_IP>
-  <RT-HW_IP>192.168.32.63</RT-HW_IP>
-  <RT-HW_IP>192.168.32.64</RT-HW_IP>
-  <RT-HW_IP>192.168.32.65</RT-HW_IP>
-  <cDAQ-HW_IP>192.168.32.66</cDAQ-HW_IP>
-  <cDAQ-HW_IP>192.168.32.67</cDAQ-HW_IP>
-</IP_File_Data>
+<unnamed_cluster>
+  <HW_Data>
+    <Hw_Name>Capsule-1</Hw_Name>
+    <Hw_Ip>192.168.32.61</Hw_Ip>
+  </HW_Data>
+  <HW_Data>
+    <Hw_Name>Capsule-2</Hw_Name>
+    <Hw_Ip>192.168.32.62</Hw_Ip>
+  </HW_Data>
+  <HW_Data>
+    <Hw_Name>Capsule-3</Hw_Name>
+    <Hw_Ip>192.168.32.63</Hw_Ip>
+  </HW_Data>
+  <HW_Data>
+    <Hw_Name>Capsule-4</Hw_Name>
+    <Hw_Ip>192.168.32.64</Hw_Ip>
+  </HW_Data>
+  <HW_Data>
+    <Hw_Name>sb-RIO</Hw_Name>
+    <Hw_Ip>192.168.32.65</Hw_Ip>
+  </HW_Data>
+  <HW_Data>
+    <Hw_Name>Safety</Hw_Name>
+    <Hw_Ip>192.168.32.17</Hw_Ip>
+  </HW_Data>
+  <HW_Data>
+    <Hw_Name>Release</Hw_Name>
+    <Hw_Ip>192.168.32.67</Hw_Ip>
+  </HW_Data>
+  <Hw_Selection>
+    <Capsule-1>false</Capsule-1>
+    <Capsule-2>false</Capsule-2>
+    <Capsule-3>false</Capsule-3>
+    <Capsule-4>true</Capsule-4>
+    <sb-RIO>true</sb-RIO>
+    <Safety>true</Safety>
+    <Release>true</Release>
+  </Hw_Selection>
+</unnamed_cluster>

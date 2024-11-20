@@ -2740,7 +2740,7 @@
 </String>
 <String>
 <Name>Identification Name</Name>
-<Val></Val>
+<Val>5g ACC</Val>
 </String>
 <EW>
 <Name>Channel Type</Name>
@@ -2977,7 +2977,7 @@
 </I32>
 <DBL>
 <Name>Sampling Rate</Name>
-<Val>1000.00000000000000</Val>
+<Val>1651.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>

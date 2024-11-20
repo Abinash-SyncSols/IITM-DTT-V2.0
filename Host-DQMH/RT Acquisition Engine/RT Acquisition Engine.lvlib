@@ -29,6 +29,7 @@
 				<Item Name="RT Connection Status Argument--cluster.ctl" Type="VI" URL="../RT Connection Status Argument--cluster.ctl"/>
 				<Item Name="DO Data&apos;s Argument--cluster.ctl" Type="VI" URL="../DO Data&apos;s Argument--cluster.ctl"/>
 				<Item Name="AI-Info Argument--cluster.ctl" Type="VI" URL="../AI-Info Argument--cluster.ctl"/>
+				<Item Name="Logging Completed Argument--cluster.ctl" Type="VI" URL="../Logging Completed Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -59,6 +60,7 @@
 		<Item Name="Tx RT Hardware Info.vi" Type="VI" URL="../Tx RT Hardware Info.vi"/>
 		<Item Name="DO Data&apos;s.vi" Type="VI" URL="../DO Data&apos;s.vi"/>
 		<Item Name="AI-Info.vi" Type="VI" URL="../AI-Info.vi"/>
+		<Item Name="Logging Completed.vi" Type="VI" URL="../Logging Completed.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

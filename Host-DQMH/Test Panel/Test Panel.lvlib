@@ -100,6 +100,7 @@
 		<Item Name="Rx-Maping Detail&apos;s.vi" Type="VI" URL="../Rx-Maping Detail&apos;s.vi"/>
 		<Item Name="Tx-Mapping Detail&apos;s.vi" Type="VI" URL="../Tx-Mapping Detail&apos;s.vi"/>
 		<Item Name="Seperating Reference and Label.vi" Type="VI" URL="../Seperating Reference and Label.vi"/>
+		<Item Name="WEBDAV Get Logging File.vi" Type="VI" URL="../WEBDAV Get Logging File.vi"/>
 	</Item>
 	<Item Name="Control&apos;s" Type="Folder">
 		<Item Name="GUI Ctrl Data&apos;s--Cluster.ctl" Type="VI" URL="../GUI Ctrl Data&apos;s--Cluster.ctl"/>
